@@ -1,0 +1,5 @@
+D:\HocSinh_Nhom14\DAO\bin\Debug\DAO.dll
+D:\HocSinh_Nhom14\DAO\bin\Debug\DAO.pdb
+D:\HocSinh_Nhom14\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\HocSinh_Nhom14\DAO\obj\Debug\DAO.dll
+D:\HocSinh_Nhom14\DAO\obj\Debug\DAO.pdb
