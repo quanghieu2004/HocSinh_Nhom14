@@ -42,8 +42,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="DanTocDAO.cs" />
+    <Compile Include="DiemDAO.cs" />
+    <Compile Include="GiaoVienDAO.cs" />
+    <Compile Include="HanhKiemDAO.cs" />
+    <Compile Include="HocKiDAO.cs" />
+    <Compile Include="HocLucDAO.cs" />
+    <Compile Include="HocSinhDAO.cs" />
+    <Compile Include="KetQuaDAO.cs" />
+    <Compile Include="KhoiLopDAO.cs" />
+    <Compile Include="LopDAO.cs" />
+    <Compile Include="MonHocDAO.cs" />
+    <Compile Include="NamHocDAO.cs" />
+    <Compile Include="NgheNghiepDAO.cs" />
+    <Compile Include="NguoiDungDAO.cs" />
+    <Compile Include="PhanCongDAO.cs" />
+    <Compile Include="PhanLopDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuyDinhDAO.cs" />
+    <Compile Include="TonGiaoDAO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{2e081066-8ea8-45a4-a308-18db02e5ec35}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
