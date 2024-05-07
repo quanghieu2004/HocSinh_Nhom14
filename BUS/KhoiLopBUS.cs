@@ -1,4 +1,6 @@
 ﻿using DAO;
+using DevComponents.DotNetBar.Controls;
+using System;
 using System.Data;
 using System.Windows.Forms;
 
@@ -21,7 +23,7 @@ namespace BUS
             private set => instance = value;
         }
 
-        public void HienThi(DataGridView dataGridViewX, BindingNavigator bindingNavigator)
+        public void HienThi(DataGridViewX dataGridViewX, BindingNavigator bindingNavigator)
         {
 
             bindingSource.DataSource = KhoiLopDAO.Instance.LayDanhSachKhoiLop();
@@ -29,14 +31,14 @@ namespace BUS
             dataGridViewX.DataSource = bindingSource;
         }
 
-        public void HienThiComboBox(ComboBox comboBox)
+        public void HienThiComboBox(ComboBoxEx comboBox)
         {
             comboBox.DataSource = KhoiLopDAO.Instance.LayDanhSachKhoiLop();
             comboBox.DisplayMember = "TenKhoiLop";
             comboBox.ValueMember = "MaKhoiLop";
         }
 
-        public void HienThiComboBox(string khoiLop, ComboBox comboBox)
+        public void HienThiComboBox(string khoiLop, ComboBoxEx comboBox)
         {
             comboBox.DataSource = KhoiLopDAO.Instance.LayDanhSachKhoiLop(khoiLop);
             comboBox.DisplayMember = "TenKhoiLop";

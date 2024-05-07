@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data;
 
 namespace DAO
 {
@@ -22,8 +17,6 @@ namespace DAO
             }
             private set => instance = value;
         }
-
-        public object DataProvider { get; private set; }
 
         public DataTable LayDanhSachDanToc()
         {

@@ -1,4 +1,5 @@
 ﻿using DAO;
+using DevComponents.DotNetBar.Controls;
 using System.Data;
 using System.Windows.Forms;
 
@@ -21,12 +22,12 @@ namespace BUS
             private set => instance = value;
         }
 
-        public void HienThi(DataGridView dataGridView, BindingNavigator bindingNavigator)
+        public void HienThi(DataGridViewX dataGridViewX, BindingNavigator bindingNavigator)
         {
 
             bindingSource.DataSource = KetQuaDAO.Instance.LayDanhSachKetQua();
             bindingNavigator.BindingSource = bindingSource;
-            dataGridView.DataSource = bindingSource;
+            dataGridViewX.DataSource = bindingSource;
         }
 
         public void CapNhatKetQua(DataTable dataTable)

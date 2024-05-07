@@ -1,6 +1,11 @@
-D:\HocSinh_Nhom14\BUS\bin\Debug\BUS.dll
-D:\HocSinh_Nhom14\BUS\bin\Debug\BUS.pdb
-D:\HocSinh_Nhom14\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
-D:\HocSinh_Nhom14\BUS\obj\Debug\BUS.dll
-D:\HocSinh_Nhom14\BUS\obj\Debug\BUS.pdb
-D:\HocSinh_Nhom14\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\BUS\bin\Debug\BUS.dll
+D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\BUS\bin\Debug\BUS.pdb
+D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\BUS\bin\Debug\DAO.dll
+D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\BUS\bin\Debug\DTO.dll
+D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\BUS\bin\Debug\DAO.pdb
+D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\BUS\bin\Debug\DTO.pdb
+D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\BUS\obj\Debug\BUS.dll
+D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\BUS\obj\Debug\BUS.pdb

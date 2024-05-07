@@ -1,4 +1,5 @@
 ﻿using DAO;
+using DevComponents.DotNetBar.Controls;
 using DTO;
 using System.Data;
 using System.Windows.Forms;
@@ -24,12 +25,12 @@ namespace BUS
 
         public void HienThi(
             BindingNavigator bindingNavigator,
-            DataGridView dataGridViewX,
-            TextBox txtSTT,
-            ComboBox cmbNamHoc,
-            ComboBox cmbLop,
-            ComboBox cmbMonHoc,
-            ComboBox cmbGiaoVien)
+            DataGridViewX dataGridViewX,
+            TextBoxX txtSTT,
+            ComboBoxEx cmbNamHoc,
+            ComboBoxEx cmbLop,
+            ComboBoxEx cmbMonHoc,
+            ComboBoxEx cmbGiaoVien)
         {
             bindingSource.DataSource = PhanCongDAO.Instance.LayDanhSachPhanCong();
             bindingNavigator.BindingSource = bindingSource;

@@ -1,4 +1,5 @@
 ﻿using DAO;
+using DevComponents.DotNetBar.Controls;
 using DTO;
 using System.Windows.Forms;
 
@@ -20,7 +21,7 @@ namespace BUS
             private set => instance = value;
         }
 
-        public void LuuHocSinhVaoBangPhanLop(string namHoc, string khoiLop, string lop, ListView listViewEx)
+        public void LuuHocSinhVaoBangPhanLop(string namHoc, string khoiLop, string lop, ListViewEx listViewEx)
         {
             foreach (ListViewItem item in listViewEx.Items)
             {
@@ -29,7 +30,7 @@ namespace BUS
             }
         }
 
-        public void XoaHocSinhKhoiBangPhanLop(string namHoc, string khoiLop, string lop, ListView listViewEx)
+        public void XoaHocSinhKhoiBangPhanLop(string namHoc, string khoiLop, string lop, ListViewEx listViewEx)
         {
             foreach (ListViewItem item in listViewEx.Items)
             {

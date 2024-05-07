@@ -2,21 +2,21 @@
 {
     public class DiemDTO
     {
-        private string maHocSinh;
-        private string maMonHoc;
-        private string maHocKy;
-        private string maNamHoc;
+        private string maHocSinh; 
+        private string maMonHoc; 
+        private string maHocKy; 
+        private string maNamHoc; 
         private string maLop;
         private string maLoaiDiem;
         private float diemSo;
 
         public DiemDTO(
-            string maHocSinh,
-            string maMonHoc,
-            string maHocKy,
-            string maNamHoc,
-            string maLop,
-            string maLoaiDiem,
+            string maHocSinh, 
+            string maMonHoc, 
+            string maHocKy, 
+            string maNamHoc, 
+            string maLop, 
+            string maLoaiDiem, 
             float diemSo)
         {
             this.maHocSinh = maHocSinh;

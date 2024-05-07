@@ -20,8 +20,6 @@ namespace DAO
             private set => instance = value;
         }
 
-        public object DataProvider { get; private set; }
-
         public DataTable LayDanhSachHocSinh()
         {
             string query = "SELECT * FROM HOCSINH";

@@ -27,20 +27,20 @@ namespace BUS
         }
 
         public void HienThi(
-            BindingNavigator bindingNavigator,
-            DataGridViewX dataGridViewX,
-            TextBoxX txtMaHocSinh,
-            TextBoxX txtTenHocSinh,
-            TextBoxX txtGioiTinh,
-            CheckBoxX ckbGTinhNam,
-            CheckBoxX ckbGTinhNu,
-            DateTimeInput dtpNgaySinh,
-            TextBoxX txtDiaChi,
-            ComboBoxEx cmbDanToc,
-            ComboBoxEx cmbTonGiao,
-            TextBoxX txtHoTenCha,
-            ComboBoxEx cmbNgheNghiepCha,
-            TextBoxX txtHoTenMe,
+            BindingNavigator bindingNavigator, 
+            DataGridViewX dataGridViewX, 
+            TextBoxX txtMaHocSinh, 
+            TextBoxX txtTenHocSinh, 
+            TextBoxX txtGioiTinh, 
+            CheckBoxX ckbGTinhNam, 
+            CheckBoxX ckbGTinhNu, 
+            DateTimeInput dtpNgaySinh, 
+            TextBoxX txtDiaChi, 
+            ComboBoxEx cmbDanToc, 
+            ComboBoxEx cmbTonGiao, 
+            TextBoxX txtHoTenCha, 
+            ComboBoxEx cmbNgheNghiepCha, 
+            TextBoxX txtHoTenMe, 
             ComboBoxEx cmbNgheNghiepMe,
             TextBoxX txtEmail)
         {
@@ -93,8 +93,8 @@ namespace BUS
 
         public void HienThiHocSinhTheoLop(
             BindingNavigator bindingNavigator,
-            DataGridViewX dataGridViewX,
-            string namHoc,
+            DataGridViewX dataGridViewX, 
+            string namHoc, 
             string lop)
         {
             BindingSource bs = new BindingSource();

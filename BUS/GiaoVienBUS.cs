@@ -1,6 +1,6 @@
 ﻿using DAO;
+using DevComponents.DotNetBar.Controls;
 using DTO;
-using System;
 using System.Data;
 using System.Windows.Forms;
 
@@ -24,13 +24,13 @@ namespace BUS
         }
 
         public void HienThi(
-            BindingNavigator bindingNavigator,
-            DataGridView dataGridViewX,
-            TextBox txtMaGiaoVien,
-            TextBox txtTenGiaoVien,
-            TextBox txtDiaChi,
-            TextBox txtDienThoai,
-            ComboBox cmbMonHoc)
+            BindingNavigator bindingNavigator, 
+            DataGridViewX dataGridViewX, 
+            TextBoxX txtMaGiaoVien, 
+            TextBoxX txtTenGiaoVien, 
+            TextBoxX txtDiaChi, 
+            TextBoxX txtDienThoai, 
+            ComboBoxEx cmbMonHoc)
         {
             bindingSource.DataSource = GiaoVienDAO.Instance.LayDanhSachGiaoVien();
             bindingNavigator.BindingSource = bindingSource;
@@ -52,12 +52,7 @@ namespace BUS
             cmbMonHoc.DataBindings.Add("SelectedValue", bindingSource, "MaMonHoc");
         }
 
-        public void HienThiDgvCmbCol(object colMaGiaoVien)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void HienThiComboBox(ComboBox comboBox)
+        public void HienThiComboBox(ComboBoxEx comboBox)
         {
             comboBox.DataSource = GiaoVienDAO.Instance.LayDanhSachGiaoVien();
             comboBox.DisplayMember = "TenGiaoVien";

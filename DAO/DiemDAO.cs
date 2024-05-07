@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using DTO;
+using System;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DTO;
 
 namespace DAO
 {
@@ -24,8 +20,6 @@ namespace DAO
             private set => instance = value;
         }
 
-        public object DataProvider { get; private set; }
-
         public DataTable LayDanhSachDiem(string maHocSinh, string maMonHoc, string maHocKy, string maNamHoc, string maLop)
         {
             string query = "EXEC LayDanhSachDiem @maHocSinh , @maMonHoc , @maHocKy , @maNamHoc , @maLop";
@@ -43,8 +37,8 @@ namespace DAO
         public void ThemDiem(DiemDTO diem)
         {
             string query = "EXEC ThemDiem @maHocSinh , @maMonHoc , @maHocKy , @maNamHoc , @maLop , @maLoaiDiem , @diemSo";
-            object[] parameters = new object[] {
-                diem.MaHocSinh, diem.MaMonHoc, diem.MaHocKy, diem.MaNamHoc, diem.MaLop, diem.MaLoaiDiem, diem.DiemSo
+            object[] parameters = new object[] { 
+                diem.MaHocSinh, diem.MaMonHoc, diem.MaHocKy, diem.MaNamHoc, diem.MaLop, diem.MaLoaiDiem, diem.DiemSo 
             };
             DataProvider.Instance.ExecuteNonQuery(query, parameters);
         }
@@ -54,11 +48,6 @@ namespace DAO
             string query = "EXEC XoaDiem @STT";
             object[] parameters = new object[] { stt };
             DataProvider.Instance.ExecuteNonQuery(query, parameters);
-        }
-
-        public void ThemDiem(DiemDTO diem)
-        {
-            throw new NotImplementedException();
         }
     }
 }

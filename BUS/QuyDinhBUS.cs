@@ -27,8 +27,8 @@ namespace BUS
         public void HienThi(
             IntegerInput txtDoTuoiCanDuoi,
             IntegerInput txtDoTuoiCanTren,
-            IntegerInput txtSiSoCanDuoi,
-            IntegerInput txtSiSoCanTren,
+            IntegerInput txtSiSoCanDuoi, 
+            IntegerInput txtSiSoCanTren, 
             IntegerInput txtDiemDat)
         {
             DataTable dataTable = QuyDinhDAO.Instance.LayDanhSachQuyDinh();
@@ -102,16 +102,6 @@ namespace BUS
 
             if (gioiHanDiem.Contains(diem)) return true;
             else return false;
-        }
-
-        public bool KiemTraSiSo(object value)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool KiemTraSiSo(object values)
-        {
-            throw new NotImplementedException();
         }
     }
 }

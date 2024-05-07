@@ -1,5 +1,5 @@
 ﻿using DAO;
-using System;
+using DevComponents.DotNetBar.Controls;
 using System.Data;
 using System.Windows.Forms;
 
@@ -22,24 +22,19 @@ namespace BUS
             private set => instance = value;
         }
 
-        public void HienThi(DataGridView dataGridView, BindingNavigator bindingNavigator)
+        public void HienThi(DataGridViewX dataGridViewX, BindingNavigator bindingNavigator)
         {
 
             bindingSource.DataSource = NamHocDAO.Instance.LayDanhSachNamHoc();
             bindingNavigator.BindingSource = bindingSource;
-            dataGridView.DataSource = bindingSource;
+            dataGridViewX.DataSource = bindingSource;
         }
 
-        public void HienThiComboBox(ComboBox comboBox)
+        public void HienThiComboBox(ComboBoxEx comboBox)
         {
             comboBox.DataSource = NamHocDAO.Instance.LayDanhSachNamHoc();
             comboBox.DisplayMember = "TenNamHoc";
             comboBox.ValueMember = "MaNamHoc";
-        }
-
-        public void HienThiDgvCmbCol(object colMaNamHoc)
-        {
-            throw new NotImplementedException();
         }
 
         public void HienThiDgvCmbCol(DataGridViewComboBoxColumn cmbColumn)

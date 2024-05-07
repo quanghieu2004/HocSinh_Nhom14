@@ -1,6 +1,4 @@
-﻿using DAO;
-using DTO;
-using System;
+﻿using DTO;
 using System.Data;
 
 namespace DAO
@@ -59,11 +57,6 @@ namespace DAO
                   AND GV.TenGiaoVien LIKE '%{tenGiaoVien}%'
             ";
             return DataProvider.Instance.ExecuteQuery(query);
-        }
-
-        public void ThemPhanCong(PhanCongDTO phanCong)
-        {
-            throw new NotImplementedException();
         }
     }
 }

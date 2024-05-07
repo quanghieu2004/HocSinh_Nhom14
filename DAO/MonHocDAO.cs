@@ -18,8 +18,6 @@ namespace DAO
             private set => instance = value;
         }
 
-        public object DataProvider { get; private set; }
-
         public DataTable LayDanhSachMonHoc()
         {
             string query = "SELECT * FROM MONHOC";

@@ -1,11 +1,8 @@
 ﻿using DAO;
+using DevComponents.DotNetBar.Controls;
 using DTO;
 using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BUS
@@ -27,11 +24,11 @@ namespace BUS
         }
 
         public void HienThi(
-            DataGridView dataGridViewX,
-            ComboBox cmbMonHoc,
-            ComboBox cmbHocKy,
-            ComboBox cmbNamHoc,
-            ComboBox cmbLop,
+            DataGridViewX dataGridViewX, 
+            ComboBoxEx cmbMonHoc, 
+            ComboBoxEx cmbHocKy, 
+            ComboBoxEx cmbNamHoc, 
+            ComboBoxEx cmbLop, 
             ref int[,] STT)
         {
             STT = new int[60, 20];
@@ -76,7 +73,7 @@ namespace BUS
         }
 
         public void HienThiDanhSachXemDiem(
-            ListView lvXemDiem,
+            ListViewEx lvXemDiem,
             string maHocSinh,
             string maMonHoc,
             string maHocKy,

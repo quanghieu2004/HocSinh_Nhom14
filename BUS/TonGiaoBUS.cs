@@ -1,4 +1,5 @@
 ﻿using DAO;
+using DevComponents.DotNetBar.Controls;
 using System.Data;
 using System.Windows.Forms;
 
@@ -21,15 +22,15 @@ namespace BUS
             private set => instance = value;
         }
 
-        public void HienThi(DataGridView dataGridView, BindingNavigator bindingNavigator)
+        public void HienThi(DataGridViewX dataGridViewX, BindingNavigator bindingNavigator)
         {
 
             bindingSource.DataSource = TonGiaoDAO.Instance.LayDanhSachTonGiao();
             bindingNavigator.BindingSource = bindingSource;
-            dataGridView.DataSource = bindingSource;
+            dataGridViewX.DataSource = bindingSource;
         }
 
-        public void HienThiComboBox(ComboBox comboBox)
+        public void HienThiComboBox(ComboBoxEx comboBox)
         {
             comboBox.DataSource = TonGiaoDAO.Instance.LayDanhSachTonGiao();
             comboBox.DisplayMember = "TenTonGiao";

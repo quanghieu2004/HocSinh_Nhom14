@@ -9,10 +9,10 @@
         private string chuyenMon;
 
         public GiaoVienDTO(
-            string maGiaoVien,
-            string tenGiaoVien,
-            string diaChi,
-            string dienThoai,
+            string maGiaoVien, 
+            string tenGiaoVien, 
+            string diaChi, 
+            string dienThoai, 
             string chuyenMon)
         {
             this.maGiaoVien = maGiaoVien;

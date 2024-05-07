@@ -23,7 +23,7 @@ namespace BUS
             private set => instance = value;
         }
 
-        public void HienThi(DataGridView dataGridViewX, BindingNavigator bindingNavigator)
+        public void HienThi(DataGridViewX dataGridViewX, BindingNavigator bindingNavigator)
         {
 
             bindingSource.DataSource = HocLucDAO.Instance.LayDanhSachHocLuc();

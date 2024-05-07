@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BUS
+﻿namespace BUS
 {
     public static class UtilitiesBUS
     {
@@ -13,16 +11,6 @@ namespace BUS
                 else str += array[i];
             }
             return str;
-        }
-
-        public static void ShowForm(string v)
-        {
-            throw new NotImplementedException();
-        }
-
-        public static string LaySTT(int v)
-        {
-            throw new NotImplementedException();
         }
     }
 }

@@ -27,13 +27,13 @@ namespace BUS
 
         public void HienThi(
             BindingNavigator bindingNavigator,
-            DataGridView dataGridViewX,
-            TextBox txtMaLop,
-            TextBox txtTenLop,
-            ComboBox cmbKhoiLop,
-            ComboBox cmbNamHoc,
+            DataGridViewX dataGridViewX,
+            TextBoxX txtMaLop,
+            TextBoxX txtTenLop,
+            ComboBoxEx cmbKhoiLop,
+            ComboBoxEx cmbNamHoc,
             IntegerInput iniSiSo,
-            ComboBox cmbGiaoVien)
+            ComboBoxEx cmbGiaoVien)
         {
             bindingSource.DataSource = LopDAO.Instance.LayDanhSachLop();
             bindingNavigator.BindingSource = bindingSource;
@@ -58,21 +58,21 @@ namespace BUS
             cmbGiaoVien.DataBindings.Add("SelectedValue", bindingSource, "MaGiaoVien");
         }
 
-        public void HienThiComboBox(ComboBox comboBox)
+        public void HienThiComboBox(ComboBoxEx comboBox)
         {
             comboBox.DataSource = LopDAO.Instance.LayDanhSachLop();
             comboBox.DisplayMember = "TenLop";
             comboBox.ValueMember = "MaLop";
         }
 
-        public void HienThiComboBox(string namHoc, ComboBox comboBox)
+        public void HienThiComboBox(string namHoc, ComboBoxEx comboBox)
         {
             comboBox.DataSource = LopDAO.Instance.LayDanhSachLop(namHoc);
             comboBox.DisplayMember = "TenLop";
             comboBox.ValueMember = "MaLop";
         }
 
-        public void HienThiComboBox(string khoiLop, string namHoc, ComboBox comboBox)
+        public void HienThiComboBox(string khoiLop, string namHoc, ComboBoxEx comboBox)
         {
             comboBox.DataSource = LopDAO.Instance.LayDanhSachLop(khoiLop, namHoc);
             comboBox.DisplayMember = "TenLop";
@@ -98,7 +98,7 @@ namespace BUS
             LopDAO.Instance.ThemLop(lop);
         }
 
-        public DataTable TimTheoMa(ComboBox cmbLop)
+        public DataTable TimTheoMa(ComboBoxEx cmbLop)
         {
             return LopDAO.Instance.TimTheoMa(cmbLop.SelectedValue.ToString());
         }

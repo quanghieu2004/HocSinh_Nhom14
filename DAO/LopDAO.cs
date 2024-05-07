@@ -53,8 +53,8 @@ namespace DAO
         public void ThemLop(LopDTO lop)
         {
             string query = "EXEC ThemLop @maLop , @tenLop , @maKhoiLop , @maNamHoc , @siSo , @maGiaoVien";
-            object[] parameters = new object[] {
-                lop.MaLop, lop.TenLop, lop.MaKhoiLop, lop.MaNamHoc, lop.SiSo, lop.MaGiaoVien
+            object[] parameters = new object[] { 
+                lop.MaLop, lop.TenLop, lop.MaKhoiLop, lop.MaNamHoc, lop.SiSo, lop.MaGiaoVien 
             };
             DataProvider.Instance.ExecuteNonQuery(query, parameters);
         }
