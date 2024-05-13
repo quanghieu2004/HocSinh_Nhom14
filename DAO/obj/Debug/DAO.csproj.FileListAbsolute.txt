@@ -1,9 +1,0 @@
-D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\DAO\bin\Debug\DAO.dll
-D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\DAO\bin\Debug\DAO.pdb
-D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\DAO\bin\Debug\DTO.dll
-D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\DAO\bin\Debug\DTO.pdb
-D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
-D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
-D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\DAO\obj\Debug\DAO.csproj.CopyComplete
-D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\DAO\obj\Debug\DAO.dll
-D:\QLHS-Nhom14\quan-ly-hoc-sinh-main (1)\quan-ly-hoc-sinh-main\DAO\obj\Debug\DAO.pdb
