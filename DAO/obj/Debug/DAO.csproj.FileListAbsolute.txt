@@ -1,0 +1,9 @@
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DAO\bin\Debug\DAO.dll
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DAO\bin\Debug\DAO.pdb
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DAO\bin\Debug\DTO.dll
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DAO\bin\Debug\DTO.pdb
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DAO\obj\Debug\DAO.dll
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DAO\obj\Debug\DAO.pdb
