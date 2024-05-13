@@ -1,0 +1,5 @@
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DTO\bin\Debug\DTO.dll
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DTO\bin\Debug\DTO.pdb
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DTO\obj\Debug\DTO.dll
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\DTO\obj\Debug\DTO.pdb
