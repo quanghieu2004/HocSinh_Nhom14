@@ -1,0 +1,11 @@
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\BUS\bin\Debug\BUS.dll
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\BUS\bin\Debug\BUS.pdb
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\BUS\bin\Debug\DAO.dll
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\BUS\bin\Debug\DTO.dll
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\BUS\bin\Debug\DAO.pdb
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\BUS\bin\Debug\DTO.pdb
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\BUS\obj\Debug\BUS.dll
+D:\Lap trinh Windows_Nhom 14\QuanLyHocSinh\Phan mem quan ly hoc sinh version 3\BUS\obj\Debug\BUS.pdb
